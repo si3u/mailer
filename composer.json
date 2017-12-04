@@ -26,7 +26,7 @@
     "require": {
         "php": ">=5.5.0",
         "ext-ctype": "*"
-    }
+    },
     "autoload": {
         "psr-4": {
             "Wolf\\Mailer\\": "src/"
