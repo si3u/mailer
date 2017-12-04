@@ -1,0 +1,35 @@
+{
+    "name": "wolf/mailer",
+    "type": "library",
+    "description": "PHPMailer is a full-featured email creation and transfer class for PHP",
+    "authors": [
+        {
+            "name": "Marcus Bointon",
+            "email": "phpmailer@synchromedia.co.uk"
+        },
+        {
+            "name": "Jim Jagielski",
+            "email": "jimjag@gmail.com"
+        },
+        {
+            "name": "Andy Prevost",
+            "email": "codeworxtech@users.sourceforge.net"
+        },
+        {
+            "name": "Brent R. Matzelle"
+        },
+		{
+			"name": "Nguyen Tuan Sieu",
+			"email": "vn.sieu@gmail.com"
+		}
+    ],
+    "require": {
+        "php": ">=5.5.0",
+        "ext-ctype": "*"
+    }
+    "autoload": {
+        "psr-4": {
+            "Wolf\\Mailer\\": "src/"
+        }
+    }
+}
